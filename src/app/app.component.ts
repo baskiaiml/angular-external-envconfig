@@ -13,6 +13,7 @@ export class AppComponent implements OnInit{
   ngOnInit(): void {
     console.log("This is app component log")
    console.log(`${this.service.getExtEnvConfig().apiGatwayURL}`)
+   console.log("Gateway URL loaded")
   }
   title = 'angular-external-envconfig';
 }
